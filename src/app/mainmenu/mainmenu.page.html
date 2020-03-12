@@ -1,0 +1,40 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+  
+  <div class="upper-menu">
+      <div class="upper-menu-button" (click)="toActivity()">
+        <p>Start</p>
+      </div>
+      <div class="midsection">
+        <ion-icon name="cloud-outline"></ion-icon>
+      </div>
+  </div>
+  
+
+</ion-header>
+
+<ion-content fullscreen>
+
+  <div class="lower-menu">
+      <div class="menubutton" (click)="toActivity()">
+        <img src="/assets/stop.svg" alt="" class="image"/>
+        <span>Route Tracking</span>
+      </div>
+      <div class="menubutton" (click)="toRecords()">
+        <img src="/assets/cycling.svg" alt="" class="image"/>
+        My Activities
+      </div>
+      <div class="menubutton" (click)="toMap()">
+        <img src="/assets/bike-parking.svg" alt="" class="image"/>
+        Parking
+      </div>
+      <div class="menubutton" (click)="toSettings()">
+        <img src="/assets/life-guard.svg" alt="" class="image"/>
+        Settings
+      </div>
+  </div>
+</ion-content>

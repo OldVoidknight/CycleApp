@@ -1,0 +1,36 @@
+
+ion-content{
+    --background: #0f2782;
+    .startpage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:30%;
+    }
+    .startbuttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+ion-button{
+    --background:#ffffff;
+    --color:black;
+}
+
+.buttonshape{
+    width:250px;
+    height:40px;
+}
+
+.textcolor{
+    color:var(--pure-white);
+}
+
+.image{
+    width:20px;
+    height:50px;
+    margin-right:5px;
+}

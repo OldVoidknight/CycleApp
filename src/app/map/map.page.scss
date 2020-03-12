@@ -1,0 +1,61 @@
+ion-content{
+    --background: var(--dark-blue);
+}
+
+ion-button{
+    --background:var(--orange);
+    height:50px;
+    width:90%;
+    margin:20px;
+}
+
+.body{
+    background:var(--white);
+    height:100%;
+    margin-top:50px;
+}
+
+.mapview{
+    height:200px;
+    width:100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.cardview{
+    margin-top:10px;
+}
+
+.cardview-col{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:10px;
+}
+
+.card{
+    height:90px;
+    width:170px;
+    box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    background:var(--pure-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom{
+    margin-top:90px;
+}
+
+.titlefont{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: x-small;
+    margin: 0;
+}
+
+.cardfont{
+    font-weight: 900;
+    font-size:x-large;
+    margin:0;
+}

@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-item>
+    <ion-select placeholder="Select Your Staring Point" value="Adum" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="Adum">Adum</ion-select-option>
+      <ion-select-option value="Bantama">Bantama</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-select placeholder="Select Your Destination" value="Kejetia" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="Kejetia">Kejetia</ion-select-option>
+      <ion-select-option value="KNUST">KNUST</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-button (click)="toMap()">
+    Set Route
+  </ion-button>
+</ion-content>
